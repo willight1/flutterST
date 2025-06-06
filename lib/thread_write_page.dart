@@ -55,6 +55,8 @@ class ThreadWritePage extends StatelessWidget {
                         ),
                       ),
                       TextField(
+                        controller: Get.find<ThreadFeedWriteController>()
+                            .contentsTextController,
                         cursorHeight: 16,
                         decoration: InputDecoration(
                           isDense: true,
