@@ -1,5 +1,5 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '12.0'
+# 플랫폼 설정 (필수!)
+platform :ios, '13.0'  # ✅ 이 줄만 바꾸면 됩니다
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
